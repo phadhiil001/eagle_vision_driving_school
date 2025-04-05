@@ -1,0 +1,66 @@
+.section {
+    background-color: #f9fafb;
+    margin: 0;
+    padding: 2rem 1.5rem;
+  
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      text-align: center;
+  
+      h2 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 2rem;
+        color: #111827;
+      }
+  
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+  
+        @media (min-width: 768px) {
+          grid-template-columns: repeat(2, 1fr);
+        }
+  
+        @media (min-width: 1024px) {
+          grid-template-columns: repeat(4, 1fr);
+        }
+      }
+  
+      .card {
+        background-color: white;
+        border-radius: 0.75rem;
+        padding: 2rem;
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+        transition: transform 0.2s ease;
+  
+        &:hover {
+          transform: translateY(-4px);
+          background-color: #e0f2fe;
+          border: 1px solid #2563eb;
+        }
+  
+        .icon {
+          font-size: 2rem;
+          color: #2563eb;
+          margin-bottom: 1rem;
+        }
+  
+        h3 {
+          font-size: 1.2rem;
+          font-weight: 800;
+          color: #111;
+          margin-bottom: 0.5rem;
+        }
+        
+        p {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: #555;
+        }
+      }
+    }
+  }
+  
