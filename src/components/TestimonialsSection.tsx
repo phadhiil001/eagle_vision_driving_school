@@ -39,7 +39,7 @@ export default function TestimonialsSection() {
 							<div
 								className='keen-slider__slide'
 								key={index}>
-								<p>"{r.quote}"</p>
+								<p>&quot;{r.quote}&quot;</p>
 								<div className={styles.name}>– {r.name}</div>
 							</div>
 						))}

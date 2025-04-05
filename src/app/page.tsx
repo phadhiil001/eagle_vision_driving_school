@@ -3,6 +3,7 @@ import HighlightsSection from "@/components/HighlightsSection";
 import PricingSection from "@/components/PricingSection";
 import InstructorSection from "@/components/InstructorSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
+import BookingSection from "@/components/BookingSection";
 import React from "react";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
 			<PricingSection />
 			<InstructorSection />
 			<TestimonialsSection />
+			<BookingSection />
 		</main>
 	);
 }
