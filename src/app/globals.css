@@ -128,8 +128,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 /* Optional: Set a global font */
 body {
 	margin: 0;
