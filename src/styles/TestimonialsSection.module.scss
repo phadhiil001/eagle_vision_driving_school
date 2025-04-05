@@ -1,0 +1,79 @@
+.section {
+    padding: 3rem 1rem;
+  
+    @media (min-width: 1024px) {
+      padding: 8rem 2rem;
+    }
+  }
+  
+
+.sliderWrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  
+    .keen-slider__slide {
+        background-color: white;
+        border-radius: 1rem;
+        padding: 2rem;
+        margin: 0 auto;
+        max-width: 600px;
+        width: 100%;
+        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+        text-align: left;
+      }
+      
+  }
+  
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    text-align: center;
+  }  
+  
+  .arrowLeft,
+  .arrowRight {
+    background: #2563eb;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  
+    &:hover {
+      background: #1e40af;
+    }
+  }
+  
+  .dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    gap: 1rem;
+  
+    button {
+      width: 12px;
+      height: 12px;
+      background: #d1d5db;
+      border-radius: 50%;
+      border: none;
+      cursor: pointer;
+      transition: background 0.3s ease;
+  
+      &.activeDot {
+        background: #2563eb;
+      }
+    }
+  }
+
+  .name {
+    margin-top: 1rem;
+    font-weight: 600;
+    color: #2563eb;
+  }
+  
