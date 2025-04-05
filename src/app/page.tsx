@@ -1,5 +1,6 @@
 import HeroSection from "@/components/HeroSection";
 import HighlightsSection from "@/components/HighlightsSection";
+import PricingSection from "@/components/PricingSection";
 import React from "react";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
 		<main>
 			<HeroSection />
 			<HighlightsSection />
+			<PricingSection />
 		</main>
 	);
 }
