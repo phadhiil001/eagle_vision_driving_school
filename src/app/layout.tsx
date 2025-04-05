@@ -5,7 +5,7 @@ import Navbar from "@/components/Navbar";
 
 const poppins = Poppins({
 	subsets: ["latin"],
-	weight: "100",
+	weight: "300",
 });
 export const metadata: Metadata = {
 	title: "DriveConfident | Winnipeg Driving School",
