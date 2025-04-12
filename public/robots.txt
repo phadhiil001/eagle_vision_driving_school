@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://eaglesvisiondrivingschool.com
+
+# Sitemaps
+Sitemap: https://eaglesvisiondrivingschool.com/sitemap.xml

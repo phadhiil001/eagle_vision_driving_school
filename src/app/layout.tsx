@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 		description:
 			"Affordable and patient driving lessons in Winnipeg. Road test preparation, flexible scheduling, English & French lessons for all ages.",
 
-		url: "https://yourwebsiteurl.com", // update with real domain later
+		url: "https://eaglevisiondrivingschool.com/",
 
 		siteName: "Eagle's Vision Driving School",
 		images: [
