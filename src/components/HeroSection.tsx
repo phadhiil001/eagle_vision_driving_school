@@ -28,7 +28,7 @@ export default function HeroSection() {
 							Book Your Lesson
 						</a>
 						<a
-							href='https://wa.me/12045551234'
+							href='https://wa.me/12043990226'
 							target='_blank'
 							rel='noopener noreferrer'
 							className={`${styles.outline}`}>

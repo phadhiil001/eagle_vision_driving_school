@@ -13,7 +13,7 @@ export default function Footer() {
 					<br />
 					📞 (204) 399-0226
 					<br />
-					✉️ info@eaglesvision.ca
+					✉️ leonard_ntumba@yahoo.ca
 				</div>
 
 				<div className={styles.nav}>
@@ -25,8 +25,8 @@ export default function Footer() {
 			</div>
 
 			<div className={styles.copyright}>
-				&copy; {new Date().getFullYear()} Eagle&apos;s Vision Driving school.
-				Serving Winnipeg & Surrounding Areas. All rights reserved.
+				&copy; {new Date().getFullYear()} Serving Winnipeg | Affordable Driving
+				Lessons | Road Test Preparation | Call Now: (204)-399-0226
 			</div>
 		</footer>
 	);
