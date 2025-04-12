@@ -6,7 +6,8 @@ export default function HeroSection() {
 	return (
 		<>
 			<div className={styles.availability}>
-				📅 Available: Weekdays, Evenings & Weekends
+				<span>📅 Available:</span>
+				<span>Weekdays, Evenings & Weekends</span>
 			</div>
 			<section
 				id='hero'
