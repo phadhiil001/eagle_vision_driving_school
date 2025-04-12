@@ -3,14 +3,24 @@ import React from "react";
 
 const highlights = [
 	{
-		icon: "😊",
-		title: "Super Patient Instructor",
-		desc: "Ideal for nervous and first-time drivers.",
+		icon: "🗣️",
+		title: "English & French Lessons",
+		desc: "Learn comfortably in your preferred language.",
+	},
+	{
+		icon: "👨‍👩‍👧‍👦",
+		title: "All Age Ranges Welcome",
+		desc: "Driving lessons for teens, adults & seniors.",
 	},
 	{
 		icon: "💰",
 		title: "Affordable Pricing",
-		desc: "Lessons start at just $55 per hour.",
+		desc: "Lessons start at just $55 per hour via interac e-transfer.",
+	},
+	{
+		icon: "😊",
+		title: "Super Patient Instructor",
+		desc: "Ideal for nervous and first-time drivers.",
 	},
 	{
 		icon: "🚗",
@@ -20,7 +30,7 @@ const highlights = [
 	{
 		icon: "🕒",
 		title: "Flexible Scheduling",
-		desc: "Evening & weekend availability across Winnipeg.",
+		desc: "Weekdays, Evenings & Weekends across Winnipeg.",
 	},
 ];
 

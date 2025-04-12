@@ -16,33 +16,31 @@ export default function Navbar() {
 		{ name: "Book Now", href: "#booking" },
 	];
 
+	// Handle Scroll - Update Active Section
 	useEffect(() => {
-		const sections = navLinks.map((link) => document.querySelector(link.href));
+		const handleScroll = () => {
+			const scrollPosition = window.scrollY + window.innerHeight / 3;
 
-		const observer = new IntersectionObserver(
-			(entries) => {
-				entries.forEach((entry) => {
-					if (entry.isIntersecting) {
-						const id = entry.target.getAttribute("id");
-						if (id) setActiveSection(id);
-					}
-				});
-			},
-			{
-				rootMargin: "-50% 0px -50% 0px", // triggers when section is centered
-				threshold: 0.2,
-			},
-		);
-
-		sections.forEach((section) => {
-			if (section) observer.observe(section);
-		});
-
-		return () => {
-			sections.forEach((section) => {
-				if (section) observer.unobserve(section);
+			const offsets = navLinks.map((link) => {
+				const el = document.querySelector(link.href) as HTMLElement;
+				return {
+					id: link.href.slice(1),
+					offsetTop: el?.offsetTop || 0,
+				};
 			});
+
+			for (let i = offsets.length - 1; i >= 0; i--) {
+				if (scrollPosition >= offsets[i].offsetTop) {
+					setActiveSection(offsets[i].id);
+					break;
+				}
+			}
 		};
+
+		window.addEventListener("scroll", handleScroll);
+		handleScroll(); // Run on mount
+
+		return () => window.removeEventListener("scroll", handleScroll);
 	}, []);
 
 	return (
@@ -60,10 +58,9 @@ export default function Navbar() {
 						<a
 							key={link.name}
 							href={link.href}
+							onClick={() => setActiveSection(link.href.slice(1))}
 							className={`${styles.link} ${
-								activeSection === link.href.replace("#", "")
-									? styles.active
-									: ""
+								activeSection === link.href.slice(1) ? styles.active : ""
 							}`}>
 							{link.name}
 						</a>
@@ -79,7 +76,7 @@ export default function Navbar() {
 				</button>
 			</div>
 
-			{/* Mobile Dropdown */}
+			{/* Mobile Nav */}
 			{open && (
 				<div className='md:hidden'>
 					<div className={styles.mobileMenu}>
@@ -87,11 +84,12 @@ export default function Navbar() {
 							<a
 								key={link.name}
 								href={link.href}
-								onClick={() => setOpen(false)}
+								onClick={() => {
+									setOpen(false);
+									setActiveSection(link.href.slice(1));
+								}}
 								className={`${styles.link} ${
-									activeSection === link.href.replace("#", "")
-										? styles.active
-										: ""
+									activeSection === link.href.slice(1) ? styles.active : ""
 								}`}>
 								{link.name}
 							</a>

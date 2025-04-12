@@ -18,11 +18,11 @@ export default function InstructorSection() {
 				<div className={styles.content}>
 					<h2>Meet Your Instructor</h2>
 					<p>
-						Hi, I&apos;m Leonard Ntumba, a certified MPI driving instructor
-						based in Winnipeg. I specialize in helping newcomers, nervous
-						drivers, and first-timers feel confident behind the wheel. With a
-						calm and patient approach, my goal is to make sure you not only pass
-						your test — but also feel confident every time you drive.
+						Hi, I&apos;m Leonard Ntumba, a certified driving instructor based in
+						Winnipeg. I specialize in helping newcomers, nervous drivers, and
+						first-timers feel confident behind the wheel. With a calm and
+						patient approach, my goal is to make sure you not only pass your
+						test — but also feel confident every time you drive.
 					</p>
 				</div>
 			</div>

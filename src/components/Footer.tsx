@@ -11,7 +11,7 @@ export default function Footer() {
 				<div className={styles.contact}>
 					Winnipeg, MB
 					<br />
-					📞 (204) 555-1234
+					📞 (204) 399-0226
 					<br />
 					✉️ info@eaglesvision.ca
 				</div>
@@ -26,7 +26,7 @@ export default function Footer() {
 
 			<div className={styles.copyright}>
 				&copy; {new Date().getFullYear()} Eagle&apos;s Vision Driving school.
-				All rights reserved.
+				Serving Winnipeg & Surrounding Areas. All rights reserved.
 			</div>
 		</footer>
 	);

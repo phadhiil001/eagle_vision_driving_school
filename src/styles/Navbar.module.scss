@@ -21,20 +21,13 @@ $hover-bg: #eff6ff;
   justify-content: space-between;
 }
 
-.active {
-    color: $primary;
-    font-weight: 700;
-    border-bottom: 2px solid $primary;
-  }
-  
-
 .logo {
   font-size: 1.5rem;
   font-weight: 800;
   color: $primary;
   text-decoration: none;
   transition: transform 0.3s ease;
-
+  
   &:hover {
     transform: scale(1.05);
   }
@@ -42,7 +35,7 @@ $hover-bg: #eff6ff;
 
 .desktopNav {
   display: none;
-
+  
   @media (min-width: 768px) {
     display: flex;
     gap: 2rem;
@@ -55,17 +48,25 @@ $hover-bg: #eff6ff;
   padding: 0.5rem;
   border-radius: 6px;
   transition: all 0.3s ease;
-
+  
   &:hover {
     background-color: $hover-bg;
     color: $primary;
   }
-
+  
   &:active {
-    background-color: #dbeafe; // darker hover for tap feel
     color: $primary;
+    font-weight: 700;
+    border-bottom: 2px solid $primary;
   }
 }
+
+.active {
+    color: $primary;
+    font-weight: 700;
+    border-bottom: 2px solid $primary;
+  }
+  
 
 .menuButton {
   background: none;

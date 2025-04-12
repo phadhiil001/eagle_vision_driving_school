@@ -11,6 +11,10 @@ const faqs = [
 			"Each lesson is $55/hour. There's also a $110 package that includes a 1-hour practice session and the use of our car for your road test.",
 	},
 	{
+		question: "What payment methods do you accept?",
+		answer: "We accept cash, e-transfer payments for your convenience.",
+	},
+	{
 		question: "Can I use your car for my road test?",
 		answer:
 			"Yes! The road test package includes a 1-hour lesson before the test and access to our vehicle for the exam.",
@@ -24,6 +28,31 @@ const faqs = [
 		question: "Do I need any experience to book a lesson?",
 		answer:
 			"Not at all. We welcome beginners, newcomers, and nervous drivers. You're in patient and supportive hands.",
+	},
+	{
+		question: "How do I book a lesson?",
+		answer:
+			"You can book a lesson directly through WhatsApp or pick a time using our online booking link. We'll confirm your lesson and send you all the details.",
+	},
+	{
+		question: "Where are the lessons held?",
+		answer:
+			"Lessons are offered across Winnipeg. We'll discuss the best meeting point when you book.",
+	},
+	{
+		question: "What if I need to cancel or reschedule?",
+		answer:
+			"Life happens — just give us at least 24 hours notice to reschedule your lesson without a fee.",
+	},
+	{
+		question: "Do you provide lessons for newcomers to Canada?",
+		answer:
+			"Yes! We specialize in helping newcomers adjust to Winnipeg's driving rules and prepare for their road test.",
+	},
+	{
+		question: "What type of car will I learn in?",
+		answer:
+			"You'll learn in a safe, easy-to-drive car equipped with dual controls for your safety and comfort.",
 	},
 ];
 

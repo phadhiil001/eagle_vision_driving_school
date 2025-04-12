@@ -14,7 +14,7 @@ export default function BookingSection() {
 
 				<div className={styles.buttonGroup}>
 					<a
-						href='https://wa.me/12045551234'
+						href='https://wa.me/12043990226'
 						target='_blank'
 						rel='noopener noreferrer'
 						className={styles.primaryButton}>
