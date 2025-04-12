@@ -6,8 +6,7 @@ export default function HeroSection() {
 	return (
 		<>
 			<div className={styles.availability}>
-				📅 Available: Weekdays, Evenings & Weekends &nbsp;|&nbsp; Lessons in
-				English & French &nbsp;|&nbsp; All Age Ranges
+				📅 Available: Weekdays, Evenings & Weekends
 			</div>
 			<section
 				id='hero'

@@ -49,7 +49,7 @@ export default function Navbar() {
 				<Link
 					href='/'
 					className={styles.logo}>
-					Eagle&apos;s Vision Driving School
+					E.V.D.S
 				</Link>
 
 				{/* Desktop Nav */}
