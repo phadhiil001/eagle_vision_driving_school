@@ -21,7 +21,7 @@ export default function BookingSection() {
 						Book via WhatsApp
 					</a>
 					<a
-						href='https://calendly.com/jamiuimamfadlullah/30min'
+						href='https://calendly.com/phadhiil001/30min'
 						target='_blank'
 						rel='noopener noreferrer'
 						className={styles.outlineButton}>
