@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Script from "next/script";
 import { Poppins } from "next/font/google";
 import Navbar from "@/components/Navbar";
 
@@ -43,6 +44,12 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang='en'>
+			<head>
+				<Script
+					src='https://static.elfsight.com/platform/platform.js'
+					async
+				/>
+			</head>
 			<body className={poppins.className}>
 				<Navbar />
 				{children}
