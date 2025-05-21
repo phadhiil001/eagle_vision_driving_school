@@ -9,7 +9,7 @@ export default function InstructorSection() {
 			<div className={styles.container}>
 				<div className={styles.imageWrapper}>
 					<Image
-						src='/leonard.png'
+						src='/images/leonard.png'
 						alt='Leonard Ntumba, MPI Certified Driving Instructor'
 						width={200}
 						height={200}

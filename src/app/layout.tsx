@@ -10,6 +10,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
+	metadataBase: new URL("https://eaglevisiondrivingschool.com"),
 	title: "Eagle's Vision Driving School | Affordable Driving Lessons Winnipeg",
 	description:
 		"Learn to drive confidently in Winnipeg with Eagle's Vision Driving School. Affordable lessons for newcomers, nervous drivers, and all age ranges. Road test preparation and flexible scheduling in English and French.",
@@ -26,7 +27,7 @@ export const metadata: Metadata = {
 		siteName: "Eagle's Vision Driving School",
 		images: [
 			{
-				url: "/public/leonard.png", // You can create a clean OG image for sharing
+				url: "/image/leonard.png",
 				width: 1200,
 				height: 630,
 				alt: "Driving Lessons Winnipeg - Eagle's Vision Driving School",
